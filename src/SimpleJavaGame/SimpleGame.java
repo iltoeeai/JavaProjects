@@ -32,7 +32,7 @@ public class SimpleGame {
 
             int enemyHealth = rand.nextInt(maxEnemyHealth);
             String enemy = enemies [rand.nextInt(enemies.length)];
-            System.out.println("\t# " + enemy + " has appared! #\n");
+            System.out.println("\t# " + enemy + " has appeared! #\n");
 
             while(enemyHealth > 0){
                 System.out.println("\tYour HP: " + health);
