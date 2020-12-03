@@ -11,7 +11,7 @@ public class Zmogus {
         System.out.println("kvieciamas default konstruktorius");
     }
 
-    Zmogus(String vardas, String pavarde){
+    public Zmogus(String vardas, String pavarde){
 //        if(vardas==null){
 //            //klaida
 ////            System.err.println("Nenurodytas vardas");
