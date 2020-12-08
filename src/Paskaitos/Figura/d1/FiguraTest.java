@@ -9,8 +9,8 @@ public class FiguraTest {
     public static void main(String[] args) {
 
         // Figura f1 = new Figura(2, 5, 90); - negalima nes Figura yra abstrakti klase
-        d19.d1.Apskritimas a1 = new d19.d1.Apskritimas(0, 0, 10);
-        d19.d1.Apskritimas a2 = new d19.d1.Apskritimas(10, 15, 10);
+        Paskaitos.Figura.d1.Apskritimas a1 = new Paskaitos.Figura.d1.Apskritimas(0, 0, 10);
+        Paskaitos.Figura.d1.Apskritimas a2 = new Paskaitos.Figura.d1.Apskritimas(10, 15, 10);
         Staciakampis s1 = new Staciakampis(30, 30, 45, 10, 20);
         Kvadratas k1 = new Kvadratas(50, 50, 180, 10);
 

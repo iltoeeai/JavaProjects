@@ -1,4 +1,4 @@
-package d19.d2;
+package Paskaitos.Figura.d2;
 
 import java.util.Random;
 

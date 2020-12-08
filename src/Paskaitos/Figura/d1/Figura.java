@@ -1,6 +1,8 @@
 package Paskaitos.Figura.d1;
 
-public abstract class Figura {
+public abstract class Figura { //abstrakti klase
+    //niekur nerasiu new Figura, negaliu konstruoti su tokia klase, ji yra sablonas
+    //jos paskirtis - tik buti extendinta
 
     private double x; //visi klases laukai pagal nutylejima turi buti private
     private double y;
