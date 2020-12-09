@@ -1,12 +1,11 @@
 package CSVReader;
 
+import JavaBasics.Strings;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
-
-import static java.time.chrono.JapaneseEra.values;
 
 public class CSVReader {
     public static void main(String[] args) {
@@ -20,10 +19,12 @@ public class CSVReader {
 
             while ((line = br.readLine()) != null) {
 //                System.out.println(line);
-                String[] values = line.split(",");
+               String[] values = line.split(",");
 
                 System.out.println("Player: " + values[0] + ", Age: " + values[4]); // values [2] prints columns
+
             }
+
 
 
         } catch (FileNotFoundException e) {
@@ -31,6 +32,7 @@ public class CSVReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
     }
 }
