@@ -1,7 +1,5 @@
 package Paskaitos.Figura.d1;
 
-import Paskaitos.Figura.d1.Figura;
-
 public class Kvadratas extends Figura {
 
     private double a;

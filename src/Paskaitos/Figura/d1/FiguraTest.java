@@ -1,9 +1,5 @@
 package Paskaitos.Figura.d1;
 
-import Paskaitos.Figura.d1.Figura;
-import Paskaitos.Figura.d1.Kvadratas;
-import Paskaitos.Figura.d1.Staciakampis;
-
 public class FiguraTest {
 
     public static void main(String[] args) {

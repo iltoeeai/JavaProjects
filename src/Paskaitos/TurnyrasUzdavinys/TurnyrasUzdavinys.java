@@ -1,9 +1,6 @@
 package Paskaitos.TurnyrasUzdavinys;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.io.*;
-import java.util.Arrays;
 
 public class TurnyrasUzdavinys {
     public static void main(String[] args) {

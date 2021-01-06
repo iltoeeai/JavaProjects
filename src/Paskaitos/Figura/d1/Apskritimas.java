@@ -1,7 +1,5 @@
 package Paskaitos.Figura.d1;
 
-import Paskaitos.Figura.d1.Figura;
-
 public class Apskritimas extends Figura {
 
     private double r;
